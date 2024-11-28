@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace BTVN_b3
 {
@@ -27,8 +28,8 @@ namespace BTVN_b3
             if (lvQLNV.SelectedItems.Count > 0)
             {
                 ListViewItem lv = lvQLNV.SelectedItems[0];
-                String lname= lv.SubItems[0].Text;
-                String fname = lv.SubItems[1].Text;
+                String fname= lv.SubItems[0].Text;
+                String lname = lv.SubItems[1].Text;
                 String phone = lv.SubItems[2].Text;
 
                 txtfirstname.Text = fname;
@@ -39,8 +40,8 @@ namespace BTVN_b3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ListViewItem Lv1 = new ListViewItem(txtlastname.Text);
-            Lv1.SubItems.Add(txtfirstname.Text);
+            ListViewItem Lv1 = new ListViewItem(txtfirstname.Text);
+            Lv1.SubItems.Add(txtlastname.Text);
             Lv1.SubItems.Add(txtphone.Text);
             lvQLNV.Items.Add(Lv1);
         }
@@ -50,6 +51,21 @@ namespace BTVN_b3
             while (lvQLNV.SelectedItems.Count > 0)
             {
                 lvQLNV.Items.RemoveAt(lvQLNV.SelectedItems[0].Index);
+                txtfirstname.Text = "";
+                txtlastname.Text = "";
+                txtphone.Text = "";
+            }
+        }
+
+        private void btnedit_Click(object sender, EventArgs e)
+        {
+            if(lvQLNV.SelectedItems.Count > 0)
+            {
+                ListViewItem lv = lvQLNV.SelectedItems[0];
+                lv.SubItems[0].Text = txtfirstname.Text;
+                lv.SubItems[1].Text = txtlastname.Text;
+                lv.SubItems[2].Text = txtphone.Text;
+
             }
         }
     }

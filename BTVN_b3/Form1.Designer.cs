@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.lvQLNV = new System.Windows.Forms.ListView();
-            this.clnlastname = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clnfirstname = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.clnlastname = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.clnphone = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.lblLastname = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -40,6 +40,7 @@
             this.txtphone = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
+            this.btnedit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lvQLNV
@@ -60,15 +61,15 @@
             this.lvQLNV.View = System.Windows.Forms.View.Details;
             this.lvQLNV.SelectedIndexChanged += new System.EventHandler(this.QLNV_SelectedIndexChanged);
             // 
-            // clnlastname
-            // 
-            this.clnlastname.Text = "Last Name";
-            this.clnlastname.Width = 130;
-            // 
             // clnfirstname
             // 
             this.clnfirstname.Text = "First Name";
             this.clnfirstname.Width = 130;
+            // 
+            // clnlastname
+            // 
+            this.clnlastname.Text = "Last Name";
+            this.clnlastname.Width = 130;
             // 
             // clnphone
             // 
@@ -143,11 +144,22 @@
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
+            // btnedit
+            // 
+            this.btnedit.Location = new System.Drawing.Point(513, 291);
+            this.btnedit.Name = "btnedit";
+            this.btnedit.Size = new System.Drawing.Size(165, 29);
+            this.btnedit.TabIndex = 5;
+            this.btnedit.Text = "Edit";
+            this.btnedit.UseVisualStyleBackColor = true;
+            this.btnedit.Click += new System.EventHandler(this.btnedit_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(906, 343);
+            this.Controls.Add(this.btnedit);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.txtphone);
@@ -178,6 +190,7 @@
         private System.Windows.Forms.TextBox txtphone;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnedit;
     }
 }
 
