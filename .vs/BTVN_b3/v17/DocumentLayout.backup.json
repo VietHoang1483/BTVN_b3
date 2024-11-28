@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\h\u1ECDc C#\\L\u00FD thuy\u1EBFt_LTMTW\\BTVN_b3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA36C25F-0258-4B41-AEB4-6BCA99654386}|BTVN_b3\\BTVN_b3.csproj|d:\\h\u1ECDc c#\\l\u00FD thuy\u1EBFt_ltmtw\\btvn_b3\\btvn_b3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BA36C25F-0258-4B41-AEB4-6BCA99654386}|BTVN_b3\\BTVN_b3.csproj|solutionrelative:btvn_b3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA36C25F-0258-4B41-AEB4-6BCA99654386}|BTVN_b3\\BTVN_b3.csproj|D:\\h\u1ECDc C#\\L\u00FD thuy\u1EBFt_LTMTW\\BTVN_b3\\btvn_b3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA36C25F-0258-4B41-AEB4-6BCA99654386}|BTVN_b3\\BTVN_b3.csproj|solutionrelative:btvn_b3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\h\u1ECDc C#\\L\u00FD thuy\u1EBFt_LTMTW\\BTVN_b3\\BTVN_b3\\Form1.cs",
+              "RelativeDocumentMoniker": "BTVN_b3\\Form1.cs",
+              "ToolTip": "D:\\h\u1ECDc C#\\L\u00FD thuy\u1EBFt_LTMTW\\BTVN_b3\\BTVN_b3\\Form1.cs",
+              "RelativeToolTip": "BTVN_b3\\Form1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAlwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T13:17:27.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\h\u1ECDc C#\\L\u00FD thuy\u1EBFt_LTMTW\\BTVN_b3\\BTVN_b3\\Form1.cs",
+              "RelativeDocumentMoniker": "BTVN_b3\\Form1.cs",
+              "ToolTip": "D:\\h\u1ECDc C#\\L\u00FD thuy\u1EBFt_LTMTW\\BTVN_b3\\BTVN_b3\\Form1.cs [Design]",
+              "RelativeToolTip": "BTVN_b3\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T13:11:33.619Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

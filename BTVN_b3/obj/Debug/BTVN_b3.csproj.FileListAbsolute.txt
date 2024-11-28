@@ -1,0 +1,10 @@
+D:\học C#\Lý thuyết_LTMTW\BTVN_b3\BTVN_b3\bin\Debug\BTVN_b3.exe.config
+D:\học C#\Lý thuyết_LTMTW\BTVN_b3\BTVN_b3\bin\Debug\BTVN_b3.exe
+D:\học C#\Lý thuyết_LTMTW\BTVN_b3\BTVN_b3\bin\Debug\BTVN_b3.pdb
+D:\học C#\Lý thuyết_LTMTW\BTVN_b3\BTVN_b3\obj\Debug\BTVN_b3.csproj.AssemblyReference.cache
+D:\học C#\Lý thuyết_LTMTW\BTVN_b3\BTVN_b3\obj\Debug\BTVN_b3.Form1.resources
+D:\học C#\Lý thuyết_LTMTW\BTVN_b3\BTVN_b3\obj\Debug\BTVN_b3.Properties.Resources.resources
+D:\học C#\Lý thuyết_LTMTW\BTVN_b3\BTVN_b3\obj\Debug\BTVN_b3.csproj.GenerateResource.cache
+D:\học C#\Lý thuyết_LTMTW\BTVN_b3\BTVN_b3\obj\Debug\BTVN_b3.csproj.CoreCompileInputs.cache
+D:\học C#\Lý thuyết_LTMTW\BTVN_b3\BTVN_b3\obj\Debug\BTVN_b3.exe
+D:\học C#\Lý thuyết_LTMTW\BTVN_b3\BTVN_b3\obj\Debug\BTVN_b3.pdb
